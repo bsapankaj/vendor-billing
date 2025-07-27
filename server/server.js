@@ -11,7 +11,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '',
-  database: 'testdb'
+  database: 'vendor_billing'
 });
 
 app.get('/users', (req, res) => {
